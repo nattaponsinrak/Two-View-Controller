@@ -19,6 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func gotoSecond(sender: AnyObject) {
+        let goTosecond = self.storyboard?.instantiateViewControllerWithIdentifier("masterUngView") as! NattaponViewController
+        
+        self.navigationController?.pushViewController(goTosecond, animated: true)
+        
+        
+    } /// gotoหน้ารอง คำสั่งเชื่อมหน้า
 
 
 }

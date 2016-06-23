@@ -14,6 +14,7 @@
 		0DD9237F1D1B87870031E749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD9237D1D1B87870031E749 /* LaunchScreen.storyboard */; };
 		0DD9238A1D1B87880031E749 /* Two_View_Controller_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD923891D1B87880031E749 /* Two_View_Controller_2Tests.swift */; };
 		0DD923951D1B87880031E749 /* Two_View_Controller_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD923941D1B87880031E749 /* Two_View_Controller_2UITests.swift */; };
+		0DD923A31D1B89A40031E749 /* NattaponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD923A21D1B89A40031E749 /* NattaponViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0DD923901D1B87880031E749 /* Two View Controller 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two View Controller 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD923941D1B87880031E749 /* Two_View_Controller_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_View_Controller_2UITests.swift; sourceTree = "<group>"; };
 		0DD923961D1B87880031E749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD923A21D1B89A40031E749 /* NattaponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NattaponViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0DD923741D1B87870031E749 /* AppDelegate.swift */,
+				0DD923A21D1B89A40031E749 /* NattaponViewController.swift */,
 				0DD923761D1B87870031E749 /* ViewController.swift */,
 				0DD923781D1B87870031E749 /* Main.storyboard */,
 				0DD9237B1D1B87870031E749 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DD923771D1B87870031E749 /* ViewController.swift in Sources */,
+				0DD923A31D1B89A40031E749 /* NattaponViewController.swift in Sources */,
 				0DD923751D1B87870031E749 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
